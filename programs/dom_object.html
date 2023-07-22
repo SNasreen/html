@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <h2>
+            Finding DOM Elements by ID
+        </h2>
+        <p id="intro">
+            Welcome Educbal
+        </p>
+        <p>Example demonstrates the <b> getElementsById </b>method.</p>
+        <p id="demo"></p>
+        <script>
+            var Elements=document.getElementById("intro");
+            document.getElementById("demo").innerHTML="Text from the intro paragraph"+Elements.innerHTML;
+        </script>
+        <div id="div1">
+            <p id="p1">
+                The first sentence in HTML document
+            </p>
+            <p id="p2">
+                The second sentence in HTML document
+            </p>
+            <script>
+                var pnode=document.createElement("p");
+                var node=document.createTextNode("This is newly added node in HTML");
+                pnode.appendChild(node);
+                var element=document.getElementById("div1");
+                element.appendChild(pnode);
+            </script>
+        </div>
+    </body> 
+</html>

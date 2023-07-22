@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+            Object_Creation
+        </title>
+    </head>
+    <body>
+    <script type="text/javascript"> 
+    var my_date=new Date();   
+    //methods of math
+    document.write("The square of number is"); document.write("<br>"); document.write("<h1>"+Math.sqrt(4)+"</h1>"+"</br>");
+    document.write("The absolute of number is"); document.write("<br>"); document.write("<h2>"+Math.abs(2.6)+"</h2>");
+    document.write("The ceil of number is"); document.write("<br>"); document.write("<h3>"+Math.ceil(2.6)+"</h3>"+"</br>");
+    document.write("The floor of number is"); document.write("<br>"); document.write("<h4>"+Math.floor(2.6)+"</h4>"+"</br>");
+    document.write("The log of number is"); document.write("<br>"); document.write("<h5>"+Math.log(3)+"</h5>"+"</br>");
+    //number objects
+    document.write(Math.PI+"</br>");
+    document.write(Number.POSITIVE_INFINITY+"</br>");
+    document.write(Number.NEGATIVE_INFINITY+"</br>");
+    document.write(Number.MAX_VALUE+"</br>");
+    document.write(Number.MIN_VALUE+"</br>");
+    document.write(Number.NaN);
+    //date and objects
+    document.write("The date is= "+my_date.toString()+"<br>");
+    document.write("Today's date is= "+my_date.getDate()+"<br>");
+    document.write("This is the month of= "+my_date.getMonth()+"<br>");
+    document.write("The current year is= "+my_date.getFullYear()+"<br>"); 
+    document.write("Now, Hour= "+my_date.getHours()+"<br>"); 
+    document.write("Minutes= "+my_date.getMinutes()+"<br>"); 
+    document.write("Seconds= "+my_date.getSeconds()+"<br>");
+    document.write("Day= "+my_date.getDay()+"<br>");
+    //boolean operator
+    var temp=new Boolean(false);
+    document.write("<b>"+"The boolean value is: "); 
+    document.write(temp.toString());
+    //string objects
+    var s1="Rahman";
+    var s2="Nasreen";
+    document.write("First string is: "+s1+"<br>"); 
+    document.write("Second string is: "+s2+"<br>");
+    document.write("Concatenating two strings: "+s1.concat(s2)+"<br>");
+    document.write("Concatenating two strings: "+s2.concat(s2)+"<br>");
+    document.write("Finding length of Second string : "+s2.length+"<br>");
+    document.write("Finding length of first string : "+s1.length+"<br>"); 
+    document.write("The legnth of both the string are :"+s1.length+"   "+s2.length+"</br>"); 
+    document.write("The character at 4th position of First string is : "+s1.charAt(4)+"<br>");
+    document.write("The character at 2th position of Second string is : "+s2.charAt(2)+"<br>");
+    document.write("The First string can be converted to upper case as : "+s1.toUpperCase()+"</br>");
+    document.write("The second string can be converted to upper case as : "+s1.toLowerCase()+"</br>");
+    document.write("The First string can be converted to upper case as : "+s2.toUpperCase()+"</br>");
+    document.write("The second string can be converted to upper case as : "+s2.toLowerCase()+"</br>");
+    </script>
+    </body>
+    </html>

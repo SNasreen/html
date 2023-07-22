@@ -1,0 +1,40 @@
+<html>
+    <body>
+        <h2>
+            Welcome
+        </h2>
+        <!--p id="intro">
+            About My Details
+        </p>
+        <p><b>Name: Salha Nasreen</br>DOB: 18-08-2002</br>Department:Btech.AI&DS</b></p>
+        <p id="demo"></p>
+        <script>
+            var Elements=document.getElementById("intro");
+            document.getElementById("demo").innerHTML="REGNO: 721820243046"+Elements.innerHTML;
+        </script>
+        <h1>Salha Nasreen</h1>
+        <div id="div1">
+            <p id="p1">Rahman</p>
+            <p id="p2">Balkees</p>
+        </div>
+        <script>
+            var pnode=document.createElement("p")
+            var node=document.createTextNode("vahab");
+            pnode.appendChlid(node);
+            var element=document.getElementById("div1");
+            element.appendChild(pnode);
+        </script-->
+        <div id="div2">
+            <p id="p1">First Sentence</p>
+            <p id="p2">Second Sentence</p>
+        </div>
+        <script>
+            var pnode=document.createElement("p");
+            var node=document.createText("Newly added sentences!!");
+            pnode.appendChild(node);
+            var element=document.getElementById("div2");
+            var nextnode=document.getElementById("p2");
+            element.removeChild(pnode);
+        </script>
+    </body>
+</html>
